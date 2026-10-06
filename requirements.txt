@@ -1,0 +1,6 @@
+streamlit
+openai
+groq
+python-dotenv
+pypdf
+scikit-learn

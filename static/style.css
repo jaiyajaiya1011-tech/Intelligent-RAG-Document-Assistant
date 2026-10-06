@@ -1,0 +1,166 @@
+.stApp {
+    background:
+        radial-gradient(circle at 10% 10%, rgba(99, 102, 241, 0.10), transparent 30%),
+        radial-gradient(circle at 90% 20%, rgba(14, 165, 233, 0.08), transparent 30%),
+        #f8fafc;
+}
+
+.main .block-container {
+    max-width: 1100px;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.documind-header {
+    text-align: center;
+    padding: 35px 25px;
+    margin-bottom: 30px;
+    border-radius: 24px;
+    background: linear-gradient(135deg, #eef2ff, #f0f9ff);
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 15px 40px rgba(15, 23, 42, 0.06);
+}
+
+.documind-logo {
+    font-size: 48px;
+    margin-bottom: 5px;
+}
+
+.documind-title {
+    font-size: 42px;
+    font-weight: 800;
+    letter-spacing: -1px;
+    margin: 0;
+    color: #172554;
+}
+
+.documind-subtitle {
+    margin-top: 10px;
+    font-size: 17px;
+    color: #64748b;
+}
+
+.section-card {
+    background: rgba(255, 255, 255, 0.90);
+    padding: 28px;
+    border-radius: 20px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);
+    margin-bottom: 24px;
+}
+
+.upload-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 5px;
+}
+
+.upload-description {
+    color: #64748b;
+    margin-bottom: 20px;
+}
+
+.stButton > button {
+    width: 100%;
+    border-radius: 12px;
+    border: none;
+    padding: 12px 20px;
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+    background: linear-gradient(135deg, #4f46e5, #2563eb);
+    box-shadow: 0 8px 20px rgba(37, 99, 235, 0.20);
+    transition: all 0.2s ease;
+}
+
+.stButton > button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 25px rgba(37, 99, 235, 0.28);
+}
+
+.stTextInput > div > div > input {
+    border-radius: 12px;
+    border: 1px solid #cbd5e1;
+    padding: 14px;
+    font-size: 15px;
+}
+
+.stTextInput > div > div > input:focus {
+    border-color: #6366f1;
+    box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.12);
+}
+
+.result-card {
+    background: white;
+    padding: 22px;
+    border-radius: 18px;
+    border: 1px solid #e2e8f0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 8px 25px rgba(15, 23, 42, 0.05);
+}
+
+.result-number {
+    font-size: 14px;
+    font-weight: 700;
+    color: #4f46e5;
+    margin-bottom: 8px;
+}
+
+.result-text {
+    color: #334155;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.source-badge {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 8px 12px;
+    border-radius: 10px;
+    background: #eef2ff;
+    color: #3730a3;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.custom-divider {
+    height: 1px;
+    background: #e2e8f0;
+    margin: 30px 0;
+}
+
+.documind-footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    color: #94a3b8;
+    font-size: 13px;
+}
+
+#MainMenu {
+    visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
+
+@media (max-width: 768px) {
+    .documind-title {
+        font-size: 32px;
+    }
+
+    .documind-logo {
+        font-size: 40px;
+    }
+
+    .documind-header {
+        padding: 28px 18px;
+    }
+
+    .section-card {
+        padding: 20px;
+    }
+}
